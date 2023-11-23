@@ -9,12 +9,6 @@
 .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
     gap: 0px 40px;
 }
 
@@ -58,7 +52,7 @@
 
     .introducao img {
         height: 300px;
-        width: 100%;
+        width: 100%;    
     }
 }
 
