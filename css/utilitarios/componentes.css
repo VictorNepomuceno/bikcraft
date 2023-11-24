@@ -17,6 +17,17 @@
     color: var(--cor-p5);
     transition: 0.3s ease;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+}
+
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
+    transition: 0.3s ease;
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
 
 .botao:hover {

@@ -54,6 +54,13 @@
         height: 300px;
         width: 100%;    
     }
+
+}
+
+@media (max-width:600px){
+    .introducao-conteudo     {
+        text-align: center;
+    }
 }
 
 

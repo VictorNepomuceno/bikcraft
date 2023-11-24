@@ -62,4 +62,8 @@
     .bicicletas-lista ul {
         gap: 20px;
     }
+
+    .bicicletas-lista h2 {
+        text-align: center;
+    }
 }

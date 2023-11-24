@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--cor-p1);
+    overflow: hidden;
 }
 
 .depoimento img {
@@ -47,7 +48,13 @@
         text-align: center;
     }
 
-    .depoimento-conteudo [
-        
-    ]
+    .depoimento img {
+        max-height: 200px;
+    }
+
+    .depoimento-conteudo {
+        padding: 20px 40px;
+        justify-self: center;
+    
+}
 }

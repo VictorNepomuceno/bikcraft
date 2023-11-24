@@ -72,6 +72,10 @@
         margin-bottom: 60px;
     }
 
+    .tecnologia-bg {
+    box-shadow: initial;
+}
+
 }
 
 @media (max-width:600px) {
