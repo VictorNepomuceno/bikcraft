@@ -9,8 +9,9 @@
 @import "./parceiros/parceiros.css";
 @import "./depoimento/depoimento.css";
 @import "./seguros/seguros.css";   
-@import "./footer/footer.css" ;
-
+@import "./footer/footer.css";
+@import "./Termos/termos.css";
+@import "./bicicletas/bicicletas.css";  
 
 
 
