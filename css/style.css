@@ -8,13 +8,11 @@
 @import "./tecnologia/tecnologia.css";
 @import "./parceiros/parceiros.css";
 @import "./depoimento/depoimento.css";
-@import "./seguros/seguros.css";   
+@import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 @import "./footer/footer.css";
 @import "./Termos/termos.css";
-@import "./bicicletas/bicicletas.css";  
-@import "./bicicletas/nimbus.css";
-
-
-
+@import "./bicicletas/bicicletas.css";
+@import "./bicicleta/nimbus.css";
+@import "./bicicleta/seguro.css";
