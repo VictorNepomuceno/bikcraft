@@ -184,6 +184,10 @@
   color: var(--cor-5);
 }
 
+.spanOrcamento {
+  color: var(--cor-4);
+}
+
 @media (max-width: 1200px) {
   .orcamento-produto,
   .orcamento-dados {
@@ -214,4 +218,9 @@
   .orcamento-dados {
     background: var(--cor-0);
   }
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--cor-4);
 }

@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Magic | Bikcraft</title>
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="../css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
 <body id="bicicleta">
     <header class="header-bg">
         <div class="header container">
@@ -27,24 +32,24 @@
     <main class="titulo-bg">
         <div>
             <div class="titulo container">
-                <p class="font-2-xl cor-5">R$ 2999</p>
-                <h1 class="font-1-xxl cor-0" >Magic Might<span class="cor-p1">.</span> </h1>
+                <p class="font-2-xl cor-5 fadeInTop" data-anime="100">R$ 2999</p>
+                <h1 class="font-1-xxl cor-0 fadeInLeft" data-anime="200">Magic Might<span class="cor-p1">.</span> </h1>
             </div>
         </div>
-        <div class="bicicleta container">
+        <div class="bicicleta container fadeInDown" data-anime="300">
             <div class="bicicleta-left">
                 <img src="../img/bicicleta/nimbus2.jpg" alt="">
                 <img src="../img/bicicleta/nimbus1.jpg" alt="">
                 <img src="../img/bicicleta/nimbus3.jpg" alt="">
             </div>
             <div class="bicicleta-right">
-                <p class="font-2-l cor-5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
-                <div class="bicicleta-comprar"><a href="../orcamento.html?tipo=bikcraft&produto=magic" class="botao">Comprar agora</a>
+                <p class="font-2-l cor-5 fadeInRight" data-anime="400">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                <div class="bicicleta-comprar fadeInLeft" data-anime="500"><a href="../orcamento.html?tipo=bikcraft&produto=magic" class="botao">Comprar agora</a>
                     <span class="font-1-xs cor-6"><img src="../img/icones/entrega.svg" alt=""> entra em 5 dias</span>
                     <span class="font-1-xs cor-6"><img src="../img/icones/estoque.svg" alt="">18 em estoque</span>
                 </div>
                 <h2 class="font-1-xs cor-0">Informações</h2>
-                <div class="bicicleta-info">
+                <div class="bicicleta-info fadeInRight" data-anime="500">
                     <ul>
                         <li>
                             <img src="../img/icones/eletrica.svg" alt="">
