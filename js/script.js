@@ -44,3 +44,27 @@ function eventosPergunta(pergunta) {
 }
 
 perguntas.forEach(eventosPergunta);
+
+// GALERIA DE IMAGENS BICICLETAS.HTML
+
+const galeria = document.querySelectorAll(".bicicleta-left img");
+const galeriaContainer = document.querySelector(".bicicleta-left");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width:1000px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function ativarClick(click) {
+  click.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(ativarClick);
+
+// Plugin animar origamid
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

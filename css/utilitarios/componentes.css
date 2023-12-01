@@ -18,9 +18,17 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+}
+
+.botao:active {
+  transform: scale(0.97);
+}
+
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
 
 .botao.secundario {
@@ -31,10 +39,6 @@
 
 .botao.secundario:hover {
   background: var(--cor-9);
-}
-
-.botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
 }
 
 .botao.seta::after {
