@@ -13,6 +13,22 @@ function menuAtivo(link) {
 
 links.forEach(menuAtivo);
 
+//toggleMenu
+
+const toggleMenu = document.querySelector(".toggleMenu");
+
+function sideBar() {
+  const menuList = document.querySelector(".header-menu");
+
+  menuList.classList.toggle("active");
+
+  const menuNav = document.querySelector(".toggleNav");
+
+  menuNav.classList.toggle("active");
+}
+
+toggleMenu.addEventListener("click", sideBar);
+
 // LINKS ORÇAMENTO
 
 const parametros = new URLSearchParams(location.search);
